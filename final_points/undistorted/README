@@ -1,0 +1,15 @@
+Points with image undistortion applied and corections, two sets of pruning limits exist:
+
+#initial pruning limits
+#circ_ell_diff_limit = 30
+#ecc_limit = 1.1
+#score_limit = 20
+#overlap_limit = 2
+
+
+
+#800px tuned  pruning limits
+circ_ell_diff_limit = 10
+ecc_limit = 1.02
+score_limit = 50
+overlap_limit = -20
